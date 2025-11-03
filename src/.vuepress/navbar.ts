@@ -10,7 +10,8 @@ export default navbar([
     icon: "meteor-icons:link",
     prefix: "/docs/",
     children: [
-      { text: "iconify", icon: "line-md:iconify2-static", link: "https://icon-sets.iconify.design/" },
+      { text: "iconify", icon: "line-md:iconify2-static", link: "https://icon-sets.iconify.design" },
+      { text: "阿里云", icon: "ant-design:aliyun-outlined", link: "https://home.console.aliyun.com/home/dashboard/ProductAndService" },
     ],
   }
   // {
