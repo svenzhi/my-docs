@@ -6,6 +6,9 @@ icon: streamline-ultimate-color:content-pen-write-2
 cover:
 order:
 tags:
+  - 写作
+  - Obsidian
+  - VuePress
 footer:
 copyright:
 sticky: false
