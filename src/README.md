@@ -5,7 +5,7 @@ title: Home
 icon: fluent-color:home-48
 welcome: ''
 name: itsven
-avatar: https://theme-hope-assets.vuejs.press/hero/conan.png
+avatar: https://open-assets.itsven.cn/sven-docs/conan.png
 bgImage: https://cn.bing.com/th?id=OHR.BuchsteinRossstein_ZH-CN4924477552_UHD.jpg
 bgImageDark: https://bing.img.run/rand_uhd.php
 titles:
