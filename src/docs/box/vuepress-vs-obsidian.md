@@ -71,4 +71,30 @@ imageNameKey: EAEKCCAICOAAIE
 > 此外，对于Obsidian，除非使用[自定义标注](https://publish.obsidian.md/help-zh/%E7%BC%96%E8%BE%91%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96/%E6%A0%87%E6%B3%A8#%E8%87%AA%E5%AE%9A%E4%B9%89%E6%A0%87%E6%B3%A8)，否则任何不支持的类型都会默认为`note`类型。
  
  
- 
+
+## 图片缩放
+
+VuePress Theme Hope支持Obsidian的图片缩放语法，具体可见[VuePress Theme Hope图片文档](https://theme-hope.vuejs.press/zh/guide/markdown/grammar/image.html)、[Obsidian文档](https://publish.obsidian.md/help-zh/%E7%BC%96%E8%BE%91%E4%B8%8E%E6%A0%BC%E5%BC%8F%E5%8C%96/%E5%9F%BA%E6%9C%AC%E6%A0%BC%E5%BC%8F%E8%AF%AD%E6%B3%95#%E5%A4%96%E9%83%A8%E5%9B%BE%E7%89%87)。
+
+[VuePress Theme Hope图片文档](https://theme-hope.vuejs.press/zh/guide/markdown/grammar/image.html)摘录：
+> 当在主题选项中设置`markdown.obsidianImgSize: true`时，可以在图片替代文字后面添加`widthxheight`，并用`|`分隔。
+> `width`和`height`都应该是数字，单位为像素，并且都是必需的。设置其中一个为`0`将按比例缩放另一个。
+
+![图片缩放示例|0x226](https://cn.bing.com/th?id=OHR.BuchsteinRossstein_ZH-CN4924477552_UHD.jpg)
+
+```
+![替代文字|200x200](/example.png)
+![替代文字|200x0](/example.jpg)
+![替代文字|0x300](/example.bmp)
+
+![图片缩放示例|0x226](https://cn.bing.com/th?id=OHR.BuchsteinRossstein_ZH-CN4924477552_UHD.jpg)
+```
+
+>[!tip]
+>Obsidian文档提及
+>如果只指定了宽度，图片会根据原始长宽比进行缩放。例如：
+>```
+>![图片缩放示例|100](https://cn.bing.com/th?id=OHR.BuchsteinRossstein_ZH-CN4924477552_UHD.jpg)
+>```
+>经测试，VuePress-Theme-Hope不支持这样写。
+
