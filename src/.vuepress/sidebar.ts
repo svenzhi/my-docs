@@ -14,6 +14,12 @@ export default sidebar({
       link: "docs/course-list.md"
     },
     {
+      text: "收集箱",
+      icon: "icon-park:box",
+      prefix: "docs/box",
+      children: "structure",
+    },
+    {
       text: "工具",
       icon: "icon-park:toolkit",
       prefix: "docs/tools",
