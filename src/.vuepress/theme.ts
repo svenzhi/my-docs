@@ -100,6 +100,7 @@ export default hopeTheme({
     demo: true,
     figure: true,
     gfm: true,
+    alert: true, //2025年11月4日 GFM 警告
     imgLazyload: true,
     imgSize: true,
     include: true,
