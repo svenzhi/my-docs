@@ -37,6 +37,8 @@ jobs:
         env:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
+          wget -O /tmp/assets.zip https://open-assets.itsven.cn/sven-docs/deploy-gh-pages/assets.zip
+          unzip -o /tmp/assets.zip -d src/docs/
           npm run docs:build
           > src/.vuepress/dist/.nojekyll
 
