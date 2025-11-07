@@ -8,6 +8,7 @@ order:
 tags:
 footer:
 copyright:
+article: false
 sticky: false
 star: false
 uid: FBFLDDBNDBDFBH
