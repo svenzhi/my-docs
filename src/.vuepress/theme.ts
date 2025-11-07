@@ -27,6 +27,8 @@ export default hopeTheme({
   // 页脚，文章页 页脚
   footer: '由 <a href="https://theme-hope.vuejs.press" target="_blank">VuePress Theme Hope</a> 驱动',
   displayFooter: true,
+  //copyright: "itsven.cn · Created by itsven",
+  //license: "CC 4.0",
 
   // 博客相关
   blog: {
