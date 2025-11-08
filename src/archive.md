@@ -11,4 +11,4 @@ imageNameKey: EAEKCCAQCCGOII
 ---
 > [!tip]
 > 博客博文目录，汇总日常开发琐碎、常用文档笔记、生活随笔等。
-<Catalog/>
+<Catalog base='/posts/'/>

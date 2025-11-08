@@ -5,7 +5,7 @@ export default navbar([
   {
     text: "博客",
     icon: "streamline-ultimate:pen-write",
-    link: "/article/",
+    link: "/posts/",
   },
   {
     text: "分类",
@@ -20,7 +20,7 @@ export default navbar([
   {
     text: "归档",
     icon: "mynaui:archive",
-    link: "/posts/",
+    link: "/archive.html",
   },
   {
     text: "项目",

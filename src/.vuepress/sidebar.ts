@@ -18,7 +18,7 @@ export default sidebar({
     },
     {
       text: "归档",
-      link: "/posts/",
+      link: "/archive.html",
       icon: "mynaui:archive",
     },
     {
@@ -41,7 +41,7 @@ export default sidebar({
     {
       text: "目录",
       prefix: "/",
-      link: "/posts/",
+      link: "/archive.html",
     },
     {
       text: "日常",
@@ -52,6 +52,25 @@ export default sidebar({
     {
       text: "文档",
       prefix: "docs",
+      children: "structure",
+      collapsible: true,
+    }
+  ],
+  "/archive.html": [
+    {
+      text: "目录",
+      prefix: "/",
+      link: "/archive.html",
+    },
+    {
+      text: "日常",
+      prefix: "/posts/daily",
+      children: "structure",
+      collapsible: true,
+    },
+    {
+      text: "文档",
+      prefix: "/posts/docs",
       children: "structure",
       collapsible: true,
     }
