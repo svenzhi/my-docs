@@ -2,7 +2,8 @@
 title: Git
 icon: "material-icon-theme:git"
 date: 2025-11-03
-isOriginal: true
+category:
+  - docs
 tag:
   - git
 ---
