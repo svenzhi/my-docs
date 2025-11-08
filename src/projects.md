@@ -3,8 +3,9 @@ home: true
 icon: flat-color-icons:idea
 title: 项目
 heroImage: /logo_round.jpg
+description: "由 itsven（Svenzhi/Wenzhi Si/司文智）主持的项目合集，包含日折旧Daily Cost、食记Tasty Memo等个人与团队作品"
 # heroText: 我的项目
-tagline: 开源项目
+tagline: 项目合集
 # description: 我的项目
 
 features:

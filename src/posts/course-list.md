@@ -2,6 +2,7 @@
 title: 课程
 isOriginal: true
 icon: hugeicons:course
+sitemap: false
 date: 2025-11-04
 tag:
   - 课程

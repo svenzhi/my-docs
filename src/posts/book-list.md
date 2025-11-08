@@ -12,6 +12,7 @@ footer:
 copyright:
 sticky: false
 star: false
+sitemap: false
 uid: EAEKCCAKCAEKKI
 imageNameKey: EAEKCCAKCAEKKI
 ---
