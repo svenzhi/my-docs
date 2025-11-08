@@ -4,5 +4,8 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 
+src/posts/.obsidian/
 src/docs/.obsidian/
+
+src/posts/assets
 src/docs/assets
