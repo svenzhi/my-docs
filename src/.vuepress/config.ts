@@ -9,7 +9,8 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "itsven",
-  description: "itsven blog，由 Svenzhi（司文智 / Wenzhi Si）创建。一个程序员的个人博客，记录工作科研与生活随笔。",
+  description: "",
+  // description: "itsven blog，由 Svenzhi（司文智 / Wenzhi Si）创建。一个程序员的个人博客，记录工作科研与生活随笔。",
 
   theme,
 
