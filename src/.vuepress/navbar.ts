@@ -3,41 +3,6 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "博客",
-    icon: "streamline-ultimate:pen-write",
-    link: "/posts/",
-  },
-  {
-    text: "分类",
-    icon: "iconamoon:category",
-    // prefix: "/posts/",
-    children: [
-      { text: "分类", icon: "iconamoon:category", link: "/category/" },
-      { text: "标签", icon: "iconamoon:badge-light", link: "/tag/" },
-      { text: "时间线", icon: "streamline-freehand:business-workflow-project-management", link: "/timeline/" },
-    ],
-  },
-  {
-    text: "归档",
-    icon: "mynaui:archive",
-    link: "/archive.html",
-  },
-  {
-    text: "项目",
-    icon: "flat-color-icons:idea",
-    link: "/projects",
-  },
-  {
-    text: "站点",
-    icon: "streamline-freehand-color:website-development-monitor-www-web",
-    link: "/website-navigation",
-  },
-  {
-    text: "关于",
-    icon: "circle-info",
-    link: "/about.html",
-  },
-  {
     text: "Go",
     icon: "meteor-icons:link",
     prefix: "/docs/",
