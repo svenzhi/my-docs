@@ -9,7 +9,7 @@ export default sidebar({
     },
     {
       text: "文档",
-      prefix: "posts/docs",
+      prefix: "docs",
       children: "structure",
       collapsible: true,
     }
